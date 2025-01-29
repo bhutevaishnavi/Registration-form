@@ -34,6 +34,6 @@ app.post('/register', (req,res)=>{
     .catch(err => res.status(500).send('error registration user'+ err.message))
 })
 
-app.listen(8080, ()=>{
-    console.log('server running at http//localhost:8080')
+app.listen(4000, ()=>{
+    console.log('server running at http//localhost:4000')
 })
